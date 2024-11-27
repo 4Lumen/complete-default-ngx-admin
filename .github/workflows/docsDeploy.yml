@@ -22,7 +22,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npm install --silent
+          npm install --force
           git config --global user.email "github-action@akveo.com"
           git config --global user.name "Github Action"
           npm run docs:gh-pages
