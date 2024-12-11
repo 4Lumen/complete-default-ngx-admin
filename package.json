@@ -13,6 +13,7 @@
     "node": "20.x"
   },
   "scripts": {
+    "preinstall": "npm install --force",
     "ng": "ng",
     "conventional-changelog": "conventional-changelog",
     "install": "npm install --force",
